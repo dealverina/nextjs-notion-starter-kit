@@ -101,7 +101,7 @@ export function PageHead({
       <title>{title}</title>
 
       {/* Better SEO for the blog posts */}
-      {isBlogPost && (
+      {/* {isBlogPost && (
         <script type='application/ld+json'>
           {JSON.stringify({
             '@context': 'https://schema.org',
@@ -119,7 +119,7 @@ export function PageHead({
             image: socialImageUrl
           })}
         </script>
-      )}
+      )} */}
     </Head>
   )
 }
